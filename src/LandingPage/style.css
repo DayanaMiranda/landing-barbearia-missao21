@@ -1,0 +1,101 @@
+.modo-claro {
+    background-color: #fff;
+    color: #000;
+}
+
+.modo-escuro {
+    background-color: #252323;
+    color: #fff;
+}
+
+.logo {
+    height: 100px;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+
+button img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    border: 2px solid #B2987D;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+section .banner-image {
+    margin-bottom: 60px;
+}
+
+.banner-image {
+    height: 341px;
+    display: flex;
+    background-image: url('/public/assets/banner-barbearia.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao-texto {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.p-1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.signature {
+    color: #B2987D ;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 50px 0 50px 0;
+}
+
+p {
+    line-height: 36px;
+    font-size: 18px;
+}
+
+/*responsividade */
+
+@media (min-width: 1920px) {
+
+}
+
+@media (min-width:1440px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:375px) {
+    .banner-image {
+        background-position: right center;
+    }
+
+    .texto {
+        padding: 0 20px;
+    }
+
+}
